@@ -1,0 +1,21 @@
+17:14:49: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+17:14:49: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | main | 115] Connected!
+17:14:50: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:51: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:52: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:53: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:54: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:55: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:56: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:57: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:58: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:14:59: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Disconnected
+17:15:00: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Disconnected
+17:15:01: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Disconnected
+17:15:02: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:03: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:04: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:05: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:06: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:07: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected
+17:15:08: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | read_queue | 74] Connected

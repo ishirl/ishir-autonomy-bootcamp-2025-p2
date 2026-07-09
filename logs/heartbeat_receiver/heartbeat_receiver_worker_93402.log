@@ -1,0 +1,41 @@
+17:14:49: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 46] Logger initialized
+17:14:49: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:14:50: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:50: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:14:51: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:51: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:14:52: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:52: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:14:53: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:53: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:14:54: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:55: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (1/5)
+17:14:55: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:56: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (2/5)
+17:14:56: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:57: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (3/5)
+17:14:57: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:58: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (4/5)
+17:14:58: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:14:59: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (5/5)
+17:14:59: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Disconnected
+17:15:00: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (6/5)
+17:15:00: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Disconnected
+17:15:01: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (7/5)
+17:15:01: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Disconnected
+17:15:02: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:02: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:03: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:03: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:04: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:04: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:05: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:05: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:06: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:06: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:07: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (1/5)
+17:15:07: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:08: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 84] Received heartbeat
+17:15:08: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected
+17:15:09: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 87] Missed heartbeat (1/5)
+17:15:09: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 65] Connected

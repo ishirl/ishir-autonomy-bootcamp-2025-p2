@@ -76,37 +76,80 @@ class Telemetry:
     def create(
         cls,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        timeout: float,
         local_logger: logger.Logger,
-    ):
+    ) -> "tuple[bool, Telemetry | None]":
         """
         Falliable create (instantiation) method to create a Telemetry object.
         """
-        pass  # Create a Telemetry object
+        if timeout <= 0:
+            local_logger.error("Telemetry timeout must be positive", True)
+            return False, None
+        return True, cls(cls.__private_key, connection, timeout, local_logger)
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        timeout: float,
         local_logger: logger.Logger,
     ) -> None:
         assert key is Telemetry.__private_key, "Use create() method"
 
-        # Do any intializiation here
+        self.connection = connection
+        self.timeout = timeout
+        self.local_logger = local_logger
 
     def run(
         self,
-        args,  # Put your own arguments here
-    ):
+    ) -> "tuple[bool, TelemetryData | None]":
         """
         Receive LOCAL_POSITION_NED and ATTITUDE messages from the drone,
         combining them together to form a single TelemetryData object.
         """
-        # Read MAVLink message LOCAL_POSITION_NED (32)
-        # Read MAVLink message ATTITUDE (30)
-        # Return the most recent of both, and use the most recent message's timestamp
-        pass
+        deadline = time.monotonic() + self.timeout
+        attitude_message = None
+        position_message = None
+
+        while time.monotonic() < deadline:
+            remaining = deadline - time.monotonic()
+            try:
+                message = self.connection.recv_match(
+                    type=["ATTITUDE", "LOCAL_POSITION_NED"],
+                    blocking=True,
+                    timeout=max(remaining, 0),
+                )
+            except Exception as exception:  # pylint: disable=broad-exception-caught
+                self.local_logger.error(f"Failed to receive telemetry: {exception}", True)
+                return False, None
+
+            if message is None:
+                break
+            if message.get_type() == "ATTITUDE":
+                attitude_message = message
+            elif message.get_type() == "LOCAL_POSITION_NED":
+                position_message = message
+
+            if attitude_message is not None and position_message is not None:
+                timestamp = max(attitude_message.time_boot_ms, position_message.time_boot_ms)
+                return True, TelemetryData(
+                    time_since_boot=timestamp,
+                    x=position_message.x,
+                    y=position_message.y,
+                    z=position_message.z,
+                    x_velocity=position_message.vx,
+                    y_velocity=position_message.vy,
+                    z_velocity=position_message.vz,
+                    roll=attitude_message.roll,
+                    pitch=attitude_message.pitch,
+                    yaw=attitude_message.yaw,
+                    roll_speed=attitude_message.rollspeed,
+                    pitch_speed=attitude_message.pitchspeed,
+                    yaw_speed=attitude_message.yawspeed,
+                )
+
+        self.local_logger.error("Timed out waiting for both telemetry messages", True)
+        return False, None
 
 
 # =================================================================================================

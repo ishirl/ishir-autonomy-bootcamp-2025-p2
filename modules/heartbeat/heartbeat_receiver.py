@@ -10,6 +10,9 @@ from ..common.modules.logger import logger
 # =================================================================================================
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
+import time  # pylint: disable=wrong-import-order
+
+
 class HeartbeatReceiver:
     """
     HeartbeatReceiver class to send a heartbeat
@@ -21,34 +24,78 @@ class HeartbeatReceiver:
     def create(
         cls,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        heartbeat_period: float,
+        disconnect_threshold: int,
         local_logger: logger.Logger,
-    ):
+    ) -> "tuple[bool, HeartbeatReceiver | None]":
         """
         Falliable create (instantiation) method to create a HeartbeatReceiver object.
         """
-        pass  # Create a HeartbeatReceiver object
+        if heartbeat_period <= 0 or disconnect_threshold <= 0:
+            local_logger.error("Heartbeat configuration must be positive", True)
+            return False, None
+        return True, cls(
+            cls.__private_key,
+            connection,
+            heartbeat_period,
+            disconnect_threshold,
+            local_logger,
+        )
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
-        args,  # Put your own arguments here
+        heartbeat_period: float,
+        disconnect_threshold: int,
+        local_logger: logger.Logger,
     ) -> None:
         assert key is HeartbeatReceiver.__private_key, "Use create() method"
 
-        # Do any intializiation here
+        self.connection = connection
+        self.heartbeat_period = heartbeat_period
+        self.disconnect_threshold = disconnect_threshold
+        self.local_logger = local_logger
+        self.missed_heartbeats = 0
+        self.status = "Disconnected"
 
     def run(
         self,
-        args,  # Put your own arguments here
-    ):
+    ) -> str:
         """
         Attempt to recieve a heartbeat message.
         If disconnected for over a threshold number of periods,
         the connection is considered disconnected.
         """
-        pass
+        start_time = time.monotonic()
+        try:
+            message = self.connection.recv_match(
+                type="HEARTBEAT",
+                blocking=True,
+                timeout=self.heartbeat_period,
+            )
+        except Exception as exception:  # pylint: disable=broad-exception-caught
+            self.local_logger.error(f"Failed to receive heartbeat: {exception}", True)
+            message = None
+
+        if message is not None and message.get_type() == "HEARTBEAT":
+            self.missed_heartbeats = 0
+            self.status = "Connected"
+            self.local_logger.info("Received heartbeat", True)
+        else:
+            self.missed_heartbeats += 1
+            self.local_logger.warning(
+                f"Missed heartbeat ({self.missed_heartbeats}/{self.disconnect_threshold})",
+                True,
+            )
+            if self.missed_heartbeats >= self.disconnect_threshold:
+                self.status = "Disconnected"
+
+        remaining_period = self.heartbeat_period - (time.monotonic() - start_time)
+        if remaining_period > 0:
+            time.sleep(remaining_period)
+
+        return self.status
 
 
 # =================================================================================================
