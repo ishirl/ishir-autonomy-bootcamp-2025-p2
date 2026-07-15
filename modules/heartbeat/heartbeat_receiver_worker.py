@@ -16,6 +16,9 @@ from ..common.modules.logger import logger
 # =================================================================================================
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
+import time  # pylint: disable=wrong-import-order
+
+
 def heartbeat_receiver_worker(
     connection: mavutil.mavfile,
     heartbeat_period: float,
@@ -62,8 +65,8 @@ def heartbeat_receiver_worker(
     while not controller.is_exit_requested():
         controller.check_pause()
         status = receiver.run()
-        local_logger.info(status, True)
         output_queue.queue.put(status)
+        time.sleep(heartbeat_period)
 
 
 # =================================================================================================

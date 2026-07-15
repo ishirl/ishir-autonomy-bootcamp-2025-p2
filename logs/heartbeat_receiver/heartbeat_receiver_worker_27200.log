@@ -1,0 +1,11 @@
+20:02:24: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 49] Logger initialized
+20:02:29: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (1/5)
+20:02:30: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (2/5)
+20:02:31: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (3/5)
+20:02:32: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (4/5)
+20:02:33: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (5/5)
+20:02:34: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (6/5)
+20:02:35: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (7/5)
+20:02:36: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (8/5)
+20:02:42: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (1/5)
+20:02:44: [WARNING] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 81] Missed heartbeat (1/5)

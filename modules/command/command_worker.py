@@ -77,7 +77,6 @@ def command_worker(
             continue
 
         for output in outputs:
-            local_logger.info(output, True)
             output_queue.queue.put(output)
 
 

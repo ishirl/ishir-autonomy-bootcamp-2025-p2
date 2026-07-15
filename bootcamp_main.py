@@ -121,6 +121,7 @@ def main() -> int:
         local_logger=main_logger,
     )
     if not result:
+        main_logger.error("Failed to create heartbeat sender worker properties", True)
         return -1
     assert heartbeat_sender_properties is not None
 
@@ -135,6 +136,7 @@ def main() -> int:
         local_logger=main_logger,
     )
     if not result:
+        main_logger.error("Failed to create heartbeat receiver worker properties", True)
         return -1
     assert heartbeat_receiver_properties is not None
 
@@ -149,6 +151,7 @@ def main() -> int:
         local_logger=main_logger,
     )
     if not result:
+        main_logger.error("Failed to create telemetry worker properties", True)
         return -1
     assert telemetry_properties is not None
 
@@ -170,19 +173,21 @@ def main() -> int:
         local_logger=main_logger,
     )
     if not result:
+        main_logger.error("Failed to create command worker properties", True)
         return -1
     assert command_properties is not None
 
     # Create the workers (processes) and obtain their managers
     worker_managers: list[worker_manager.WorkerManager] = []
-    for properties in (
-        heartbeat_sender_properties,
-        heartbeat_receiver_properties,
-        telemetry_properties,
-        command_properties,
+    for worker_name, properties in (
+        ("heartbeat sender", heartbeat_sender_properties),
+        ("heartbeat receiver", heartbeat_receiver_properties),
+        ("telemetry", telemetry_properties),
+        ("command", command_properties),
     ):
         result, manager = worker_manager.WorkerManager.create(properties, main_logger)
         if not result:
+            main_logger.error(f"Failed to create manager for {worker_name} worker", True)
             return -1
         assert manager is not None
         worker_managers.append(manager)

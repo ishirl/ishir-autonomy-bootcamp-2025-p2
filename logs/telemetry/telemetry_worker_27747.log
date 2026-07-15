@@ -1,5 +1,5 @@
-17:15:26: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 45] Logger initialized
-17:15:26: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:15: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 45] Logger initialized
+20:03:15: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -14,7 +14,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:26: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:15: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 500,
             x: 0.5,
             y: 0.0,
@@ -29,7 +29,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:27: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:16: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 1000,
             x: 1.0,
             y: 0.0,
@@ -44,7 +44,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:27: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:16: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 1500,
             x: 1.5,
             y: 0.0,
@@ -59,7 +59,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:28: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:17: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 2000,
             x: 2.0,
             y: 0.0,
@@ -74,7 +74,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:28: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:17: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 2500,
             x: 2.5,
             y: 0.0,
@@ -89,7 +89,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:29: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:18: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 3000,
             x: 3.0,
             y: 0.0,
@@ -104,7 +104,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:29: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:18: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 3500,
             x: 3.5,
             y: 0.0,
@@ -119,7 +119,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:30: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:19: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 4000,
             x: 4.0,
             y: 0.0,
@@ -134,7 +134,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:30: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:19: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 4500,
             x: 4.5,
             y: 0.0,
@@ -149,10 +149,10 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:31: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
-17:15:32: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
-17:15:33: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
-17:15:34: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:20: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
+20:03:21: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
+20:03:22: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
+20:03:23: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -167,7 +167,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:34: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:23: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 500,
             x: 0.3333333432674408,
             y: 0.0,
@@ -182,7 +182,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:35: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:24: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 1000,
             x: 0.6666666865348816,
             y: 0.0,
@@ -197,7 +197,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:35: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:24: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 1500,
             x: 1.3333333730697632,
             y: 0.0,
@@ -212,7 +212,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:36: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:25: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 2000,
             x: 1.6666666269302368,
             y: 0.0,
@@ -227,7 +227,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:36: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:25: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 2500,
             x: 2.3333332538604736,
             y: 0.0,
@@ -242,7 +242,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:37: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:26: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 3000,
             x: 2.6666667461395264,
             y: 0.0,
@@ -257,7 +257,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:37: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:26: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 3500,
             x: 3.3333332538604736,
             y: 0.0,
@@ -272,7 +272,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:38: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:27: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 4000,
             x: 3.6666667461395264,
             y: 0.0,
@@ -287,7 +287,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:38: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
+20:03:27: [INFO] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 63] {
             time_since_boot: 4500,
             x: 4.333333492279053,
             y: 0.0,
@@ -302,4 +302,4 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-17:15:39: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages
+20:03:28: [ERROR] [/Users/User/Documents/WARG_Bootcamp/ishir-autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 151] Timed out waiting for both telemetry messages

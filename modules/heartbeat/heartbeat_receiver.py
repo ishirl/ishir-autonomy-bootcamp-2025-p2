@@ -10,9 +10,6 @@ from ..common.modules.logger import logger
 # =================================================================================================
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
-import time  # pylint: disable=wrong-import-order
-
-
 class HeartbeatReceiver:
     """
     HeartbeatReceiver class to send a heartbeat
@@ -67,12 +64,10 @@ class HeartbeatReceiver:
         If disconnected for over a threshold number of periods,
         the connection is considered disconnected.
         """
-        start_time = time.monotonic()
         try:
             message = self.connection.recv_match(
                 type="HEARTBEAT",
-                blocking=True,
-                timeout=self.heartbeat_period,
+                blocking=False,
             )
         except Exception as exception:  # pylint: disable=broad-exception-caught
             self.local_logger.error(f"Failed to receive heartbeat: {exception}", True)
@@ -81,7 +76,6 @@ class HeartbeatReceiver:
         if message is not None and message.get_type() == "HEARTBEAT":
             self.missed_heartbeats = 0
             self.status = "Connected"
-            self.local_logger.info("Received heartbeat", True)
         else:
             self.missed_heartbeats += 1
             self.local_logger.warning(
@@ -90,10 +84,6 @@ class HeartbeatReceiver:
             )
             if self.missed_heartbeats >= self.disconnect_threshold:
                 self.status = "Disconnected"
-
-        remaining_period = self.heartbeat_period - (time.monotonic() - start_time)
-        if remaining_period > 0:
-            time.sleep(remaining_period)
 
         return self.status
 
